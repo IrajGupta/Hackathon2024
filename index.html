@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3D Earth Model</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="website-content">
+      <header>
+        <div class="logo">
+          <img src="mountain.png" style="width: 70%; height: 70%" alt="Logo" />
+        </div>
+        <div class="menu-toggle" id="mobile-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="nav">
+          <nav>
+            <ul>
+              <li class="home"><a href="#fire" class="active">Fire</a></li>
+              <li><a href="#water">Water</a></li>
+              <li><a href="#wind">Wind</a></li>
+              <li><a href="#earth">Earth</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <div class="main">
+        <div class="mapoop">
+          <img class="map" src="sad.webp" usemap=""#image-map">
+        </div>
+        <map name="image-map">
+          <area
+            target="_self"
+            alt="FIRE"
+            title="FIRE"
+            href=""
+            coords="574,184,846,481"
+            shape="rect"
+          />
+          <area
+            target="_self"
+            alt="EARTH"
+            title="E"
+            href=""
+            coords="555,569,293,272"
+            shape="rect"
+          />
+          <area
+            target="_self"
+            alt="TUNDRA"
+            title="TUNDRA"
+            href=""
+            coords="251,108,15,570"
+            shape="rect"
+          />
+          <area
+            target="_self"
+            alt="TUNDRA"
+            title="TUNDRA"
+            href=""
+            coords="251,576,1059,654"
+            shape="rect"
+          />
+          <area
+            target="_self"
+            alt="AIR"
+            title="AIR"
+            href=""
+            coords="1063,308,190"
+            shape="circle"
+          />
+        </map>
+
+        <section id="fire" data-bgcolor="#980211" data-textcolor="#ffffff">
+          <br /><br />
+          <div style="font-size: 55px">FIRE</div>
+          <div>
+            <h2 style="font-size: 45px">
+              A forest fire is an uncontrolled fire that quickly spreads across
+              forests and other plants due to a combination of dry weather, high
+              winds, and an abundance of flammable materials.
+            </h2>
+            <br /><br /><br />
+            <div class="fire1">
+              <img src="fire.jpeg" class="fire" />
+            </div>
+          </div>
+        </section>
+        <section id="water" data-bgcolor="#0047ab" data-textcolor="#d0b6c0">
+          <div>
+            <h1 style="font-size: 55px">WATER</h1>
+            <h2 style="font-size: 45px">
+              Floods happen when an excess of water, brought on by severe rains,
+              fast melting snow, storm surges from tropical cyclones, or
+              tsunamis in coastal locations, submerges land.
+            </h2>
+            <br /><br /><br />
+            <div class="flood1">
+              <img src="flood.jpeg" class="flood" />
+            </div>
+          </div>
+        </section>
+        <section id="wind" data-bgcolor="#cdcdcd" data-textcolor="#222222">
+          <div>
+            <h1 style="font-size: 55px">WIND</h1>
+            <h2 style="font-size: 45px">
+              A drought is an extended dry period defined by a lack of
+              precipitation, which affects the environment, economy, health, and
+              agriculture by causing a scarcity of water.
+            </h2>
+          </div>
+          <br /><br /><br />
+          <div class="wind1">
+            <img src="cane.jpeg" class="wind" />
+          </div>
+        </section>
+        <section id="earth" data-bgcolor="#032F35" data-textcolor="#b3c2ba">
+          <div>
+            <h1 style="font-size: 55px">EARTH</h1>
+            <h2 style="font-size: 45px">
+              When a hurricane originates over tropical or subtropical waters,
+              it can cause tornadoes, rip currents, and inland floods due to its
+              powerful winds, storm surge flooding, and heavy rainfall.
+            </h2>
+          </div>
+          <br /><br /><br />
+          <div class="earth1">
+            <img src="dro.jpeg" class="earth" />
+          </div>
+        </section>
+        <section data-bgcolor="#355f3c" data-textcolor="#ffffff">
+          <br /><br /><br /><br /><br /><br />
+          <div class="text">SAVE THE EARTH.</div>
+        </section>
+      </div>
+
+      <section class="section2">
+        <div class="card">
+          <span class="og">FIRE</span>
+          <span class="bruh"
+            >The natural calamities across the globe such as forest fires and
+            eruptions</span
+          >
+        </div>
+
+        <div class="card">
+          <span class="og">WATER</span>
+          <span class="bruh"
+            >The natural calamities across the globe such as Tsunamis and
+            Floods</span
+          >
+        </div>
+        <div class="card">
+          <span class="og">EARTH</span>
+          <span class="bruh"
+            >The natural calamities across the globe such as Earthquakes and
+            volcanoes</span
+          >
+        </div>
+        <div class="card">
+          <span class="og">AIR</span>
+          <span class="bruh"
+            >The natural calamities across the globe such as tornadoes and
+            hurricanes</span
+          >
+        </div>
+      </section>
+
+      <div class="footer">
+        <div class="footercontainer">
+          <div class="socialIcons">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-youtube"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-google-plus"></i></a>
+          </div>
+          <div class="footernav">
+            <ul>
+              <li><a href="Home">FIRE</a></li>
+              <li><a href="tuff">WATER</a></li>
+              <li><a href="tuff">AIR</a></li>
+              <li><a href="tuff">EARTH</a></li>
+            </ul>
+          </div>
+          <div class="footerbot">
+            <p>
+              Copyright &copy; 2024; Designed by
+              <span class="us">THE DOCTYPE DEFENDERS</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="loading-screen">
+      <div class="loader">
+        <div class="loader-1 bar"></div>
+        <div class="loader-2 bar"></div>
+      </div>
+
+      <div class="counter">
+        <div class="counter-1 digit">
+          <div class="num">0</div>
+          <div class="num num1offset1">1</div>
+        </div>
+        <div class="counter-2 digit">
+          <div class="num">0</div>
+          <div class="num num1offset2">1</div>
+          <div class="num">2</div>
+          <div class="num">3</div>
+          <div class="num">4</div>
+          <div class="num">5</div>
+          <div class="num">6</div>
+          <div class="num">7</div>
+          <div class="num">8</div>
+          <div class="num">9</div>
+          <div class="num">0</div>
+        </div>
+        <div class="counter-3 digit">
+          <div class="num">0</div>
+          <div class="num">1</div>
+          <div class="num">2</div>
+          <div class="num">3</div>
+          <div class="num">4</div>
+          <div class="num">5</div>
+          <div class="num">6</div>
+          <div class="num">7</div>
+          <div class="num">8</div>
+          <div class="num">9</div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scrollbar/8.6.2/smooth-scrollbar.min.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const scrollBar = Scrollbar.init(document.querySelector(".main"), {
+          damping: 0.06,
+        });
+
+        ScrollTrigger.defaults({
+          scroller: ".main",
+        });
+        ScrollTrigger.scrollerProxy(".main", {
+          scrollTop(value) {
+            if (arguments.length) {
+              scrollBar.scrollTop = value;
+            }
+            return scrollBar.scrollTop;
+          },
+        });
+
+        scrollBar.addListener(ScrollTrigger.update);
+
+        const sections = document.querySelectorAll("[data-bgcolor]");
+        sections.forEach((section, index) => {
+          const prevBgColor =
+            index === 0 ? "" : sections[index - 1].dataset.bgcolor;
+          const prevTextColor =
+            index === 0 ? "" : sections[index - 1].dataset.textcolor;
+
+          ScrollTrigger.create({
+            trigger: section,
+            scroller: ".main",
+            start: "top 50%",
+            onEnter: () =>
+              gsap.to(".main", {
+                backgroundColor: section.dataset.bgcolor,
+                color: section.dataset.textcolor,
+                overwrite: "auto",
+              }),
+            onLeaveBack: () =>
+              gsap.to(".main", {
+                backgroundColor: prevBgColor,
+                color: prevTextColor,
+                overwrite: "auto",
+              }),
+          });
+        });
+      });
+      document.addEventListener("DOMContentLoaded", function () {
+        const counter3 = document.querySelector(".counter-3");
+        for (let i = 0; i < 2; i++) {
+          for (let j = 0; j < 10; j++) {
+            const div = document.createElement("div");
+            div.className = "num";
+            div.textContent = j;
+            counter3.appendChild(div);
+          }
+        }
+
+        const finalDiv = document.createElement("div");
+        finalDiv.className = "num";
+        finalDiv.textContent = "0";
+        counter3.appendChild(finalDiv);
+
+        function animate(counter, duration, delay = 0) {
+          const numHeight = counter.querySelector(".num").clientHeight;
+          const totalDistance =
+            (counter.querySelectorAll(".num").length - 1) * numHeight;
+
+          gsap.to(counter, {
+            y: -totalDistance,
+            duration: duration,
+            delay: delay,
+            ease: "power2.inOut",
+          });
+        }
+
+        animate(counter3, 6);
+        animate(document.querySelector(".counter-2"), 6);
+        animate(document.querySelector(".counter-1"), 2, 4);
+      });
+
+      gsap.to(".digit", {
+        top: "-150px",
+        stagger: {
+          amount: 0.25,
+        },
+        delay: 6,
+        duration: 1,
+        ease: "power4.inOut",
+      });
+
+      gsap.from(".loader-1", {
+        width: 0,
+        duration: 6,
+        ease: "power2.inOut",
+      });
+
+      gsap.from(".loader-2", {
+        width: 0,
+        delay: 1.9,
+        duration: 2,
+        ease: "power2.inOut",
+      });
+
+      gsap.to(".loader", {
+        background: "none",
+        delay: 6,
+        duration: 0.1,
+      });
+
+      gsap.to(".loader-1", {
+        rotate: 90,
+        y: -50,
+        duration: 0.5,
+        delay: 6,
+      });
+
+      gsap.to(
+        ".loader-2",
+        {
+          x: -75,
+          y: 75,
+          duration: 0.5,
+        },
+        "<"
+      );
+
+      gsap.to(".loader", {
+        scale: 38,
+        duration: 1,
+        delay: 7,
+        ease: "power2.inOut",
+      });
+
+      gsap.to(".loader", {
+        rotate: 45,
+        y: 500,
+        x: 2000,
+        duration: 1,
+        delay: 7,
+        ease: "power2.inOut",
+      });
+
+      gsap.to(".loading-screen", {
+        opacity: 0,
+        duration: 0.5,
+        delay: 7.5,
+        ease: "power1.inOut",
+        onComplete: () => {
+          document.querySelector(".loading-screen").style.display = "none"; // Hide the loading screen
+          document.body.style.backgroundColor = "#f1e9d2"; // Set the background color explicitly
+        },
+      });
+    </script>
+  </body>
+</html>
